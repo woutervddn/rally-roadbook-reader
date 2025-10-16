@@ -1,0 +1,24 @@
+{
+  "name": "Rally Roadbook Reader",
+  "short_name": "Roadbooks",
+  "description": "A rally roadbook viewer for any device",
+  "theme_color": "#212529",
+  "background_color": "#000000",
+  "display": "standalone",
+  "id":"/",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "RRR_logo_512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "RRR_logo_256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null
+}
