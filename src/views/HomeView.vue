@@ -31,7 +31,7 @@
         <div class="col-lg-6 offset-lg-3 px-4" v-else>
           <h1 class="text-white">You don't have any routes defined yet</h1>
           <RouterLink to="/add-route" class="btn btn-light mt-5 btn-lg w-100">
-            Add one now
+            Add one now!
           </RouterLink>
         </div>
       </div>
