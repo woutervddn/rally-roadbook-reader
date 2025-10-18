@@ -10,7 +10,7 @@
             <input class="form-control" type="text" v-model="routeTitle" placeholder="Route Title"/>
           </div>
           <input v-if="detectedOS=='MacOS'" type="file" ref="myFile" @change="onFileChange" class="inputFile form-control" :class="{'disabled':routeTitle == ''}" :disabled="routeTitle == ''" />
-          <input v-else type="file" ref="myFile" accept="application/gpx+xml" @change="onFileChange" class="inputFile form-control" :class="{'disabled':routeTitle == ''}" :disabled="routeTitle == ''" />
+          <input v-else type="file" ref="myFile" @change="onFileChange" class="inputFile form-control" :class="{'disabled':routeTitle == ''}" :disabled="routeTitle == ''" />
         </div>
       </div>
     </div>
