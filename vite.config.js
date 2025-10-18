@@ -8,6 +8,10 @@ import { VitePWA } from 'vite-plugin-pwa'
 // https://vitejs.dev/config/
 export default defineConfig({
   base:'/rally-roadbook-reader/',
+  build:{
+    outDir:'./docs',
+    emptyOutDir: true
+  },
   plugins: [
     vue(),
     VitePWA({
