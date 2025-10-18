@@ -210,7 +210,7 @@
     },
     methods: {
       reloadPage(){
-        window.location.href = `https://rallyroadbook.vierpuntnul.be/?t=${Math.floor(Date.now() / 1000)}`
+        window.location.href = `${window.location.origin}${window.location.pathname}/?t=${Math.floor(Date.now() / 1000)}`
       },
       addNote(index){
         this.activeNote=index;
